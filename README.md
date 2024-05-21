@@ -64,6 +64,7 @@ Get the host’s addresses (A record). Get the namservers (threaded). Get the MX
 ![image](https://github.com/Naadira/Enumeration/assets/128135126/2c0462f7-8890-42eb-904e-e4c2b2eabda3)
 ![image](https://github.com/Naadira/Enumeration/assets/128135126/e219964b-b81b-426f-b00a-57b5ef9dd5cf)
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd: select any username in the first column of the above file and check the same #Telnet for smtp enumeration Telnet allows to connect to remote host based on the port no. For smtp port no is 25 telnet 25 to connect and issue appropriate commands
+
 ![image](https://github.com/Naadira/Enumeration/assets/128135126/a89ae351-11d2-4004-adde-ac0e875b7368)
 
 ##smtp-user-enum
@@ -80,7 +81,6 @@ Telnet allows to connect to remote host based on the port no. For smtp port no i
 telnet <host address> 25 to connect
 and issue appropriate commands
   
- ##Output
 ![image](https://github.com/Naadira/Enumeration/assets/128135126/f57ac1c1-b4c3-4713-af50-8ad66c5e004f)
 
 ## nmap –script smtp-enum-users.nse <hostname>
